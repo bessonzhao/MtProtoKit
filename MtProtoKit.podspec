@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "MTProtoKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Universal MTProto framework for both iOS and OS X"
   s.homepage     = "https://github.com/PauloMigAlmeida/MtProtoKit"
   s.license      = "MIT"
-  s.authors      = { "Peter Iakovlev" => '', "Paulo Miguel Almeida" => "paulo.ubuntu@gmail.com" }
+  s.authors      = { "Peter Iakovlev" => ''}
 
-  s.ios.deployment_target = "6.1"
+  s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.8"
   s.source       = { :git => "https://github.com/bessonzhao/MtProtoKit.git", :tag => s.version }
 
